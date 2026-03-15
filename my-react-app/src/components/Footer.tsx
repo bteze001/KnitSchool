@@ -6,7 +6,7 @@ export default function Footer() {
       <div className="max-w-6xl mx-auto px-6 py-12">
         <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
           <div>
-            <h4 className="font-serif text-xl mb-4">StitchCraft</h4>
+            <h4 className="font-serif text-xl mb-4">KnitSchool</h4>
             <p className="text-sm text-muted-foreground leading-relaxed">
               Learn knitting & crochet from absolute beginner to master crafter.
             </p>
@@ -26,15 +26,15 @@ export default function Footer() {
               <Link to="/tools" className="block text-sm text-muted-foreground hover:text-foreground transition-colors">Crafting Tools</Link>
             </div>
           </div>
-          <div>
+          {/* <div>
             <h5 className="font-medium text-sm mb-3">Connect</h5>
             <div className="space-y-2">
               <Link to="/community" className="block text-sm text-muted-foreground hover:text-foreground transition-colors">Community</Link>
             </div>
-          </div>
+          </div> */}
         </div>
         <div className="border-t border-border mt-8 pt-8 text-center text-sm text-muted-foreground">
-          © 2026 StitchCraft. Made with yarn and love.
+          © 2026 KnitSchool. Made with yarn and love.
         </div>
       </div>
     </footer>

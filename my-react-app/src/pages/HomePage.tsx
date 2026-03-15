@@ -142,7 +142,7 @@ export default function HomePage() {
       </section>
 
       {/* Community Preview */}
-      <section className="px-6 py-16">
+      {/* <section className="px-6 py-16">
         <div className="max-w-6xl mx-auto text-center">
           <Users size={32} className="text-primary mx-auto mb-4" />
           <h2 className="text-3xl font-serif mb-4">Join the Community</h2>
@@ -156,7 +156,7 @@ export default function HomePage() {
             Explore Community <ArrowRight size={16} />
           </Link>
         </div>
-      </section>
+      </section> */}
 
       {/* Popular Patterns */}
       <section className="px-6 py-16 bg-muted/30">
