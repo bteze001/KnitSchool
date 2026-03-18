@@ -10,7 +10,7 @@ const navItems = [
   { label: "Stitch Library", path: "/stitches" },
   { label: "Patterns", path: "/patterns" },
   { label: "Tools", path: "/tools" },
-  // { label: "Community", path: "/community" },
+  { label: "Community", path: "/community" },
 ];
 
 export default function Navbar() {

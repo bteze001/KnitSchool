@@ -34,7 +34,7 @@ const App = () => (
             <Route path="/needles" element={<NeedlesPage />} />
             <Route path="/needles/:needleId" element={<NeedlesPage />} />
             <Route path="/tools" element={<ToolsPage />} />
-            {/* <Route path="/community" element={<CommunityPage />} /> */}
+            <Route path="/community" element={<CommunityPage />} />
           </Route>
           <Route path="*" element={<NotFound />} />
         </Routes>

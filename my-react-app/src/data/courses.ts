@@ -32,91 +32,214 @@ export const courses: Course[] = [
         title: "Introduction to Knitting",
         description: "Learn what knitting is, its history, and why it's a wonderful craft to pick up.",
         duration: "10 min",
-        content: `## What is Knitting?\n\nKnitting is the art of creating fabric by interlocking loops of yarn with needles. It's one of the oldest textile crafts, dating back centuries.\n\n### Why Learn to Knit?\n\n- **Relaxation** — The rhythmic motion is meditative\n- **Creativity** — Design your own garments and accessories\n- **Practical** — Make gifts, clothing, and home décor\n- **Community** — Join millions of knitters worldwide\n\n### What You'll Need\n\n1. A pair of knitting needles (US size 8 / 5mm recommended for beginners)\n2. Medium-weight yarn (worsted weight)\n3. Scissors\n4. A yarn needle for weaving in ends`,
+        content: `## What Is Knitting?
+
+Knitting is the craft of making fabric by pulling loops of yarn through other loops with needles. It is one of the oldest textile skills and is still popular because it is practical, creative, and relaxing.
+
+### Why Learn to Knit?
+
+- **Relaxing:** The repeated motion can feel calm and meditative.
+- **Creative:** You can make scarves, hats, sweaters, blankets, and gifts.
+- **Useful:** Knitting lets you create items you can wear or use every day.
+- **Social:** Yarn shops, classes, and online groups make it easy to learn with others.
+
+### What You Need to Begin
+
+1. A pair of knitting needles, such as US size 8 / 5mm.
+2. Smooth, light-colored worsted-weight yarn.
+3. Scissors.
+4. A yarn needle for weaving in ends.`,
         commonMistakes: [
-          "Starting with yarn that's too thin or slippery",
-          "Choosing needles that are too small for beginners",
-          "Trying to learn too many techniques at once"
+          "Starting with yarn that is dark, fuzzy, or slippery.",
+          "Choosing very small needles that make the stitches hard to see.",
+          "Trying to learn too many new techniques in the first session.",
         ],
-        practiceExercise: "Visit a local yarn shop or browse online to select your first set of needles and yarn. Choose a light-colored, smooth worsted-weight yarn so you can see your stitches clearly."
+        practiceExercise: "Gather your first knitting supplies and make sure the yarn and needle size feel comfortable in your hands before you begin stitching.",
       },
       {
         id: "types-of-needles",
         title: "Types of Knitting Needles",
         description: "Explore straight, circular, double-pointed, and interchangeable needles.",
         duration: "12 min",
-        content: `## Knitting Needle Types\n\n### Straight Needles\nThe classic choice. Two single-pointed needles, great for flat pieces like scarves.\n\n### Circular Needles\nTwo needle tips connected by a flexible cable. Perfect for knitting in the round (hats, cowls) and large flat pieces.\n\n### Double-Pointed Needles (DPNs)\nSets of 4-5 short needles for small circumference projects like socks and mittens.\n\n### Interchangeable Needles\nA set where tips and cables can be mixed and matched. The most versatile and economical long-term choice.\n\n### Sizing\n| US Size | Metric |\n|---------|--------|\n| 0 | 2mm |\n| 4 | 3.5mm |\n| 7 | 4.5mm |\n| 8 | 5mm |\n| 10 | 6mm |\n| 11 | 8mm |`,
+        content: `## Knitting Needle Types
+
+### Straight Needles
+Straight needles are the classic beginner option. They are best for flat projects like scarves, washcloths, and simple panels.
+
+### Circular Needles
+Circular needles have two needle tips connected by a flexible cable. They work well for knitting in the round, and they can also hold wide flat projects more comfortably than straight needles.
+
+### Double-Pointed Needles (DPNs)
+Double-pointed needles come in sets of 4 or 5. They are useful for small tubes like socks, mitten thumbs, and hat crowns.
+
+### Interchangeable Needles
+Interchangeable sets let you connect different needle tips to different cable lengths. They are a flexible long-term option if you plan to knit many kinds of projects.
+
+### Common Sizes
+| US Size | Metric |
+|---------|--------|
+| 0 | 2mm |
+| 4 | 3.5mm |
+| 7 | 4.5mm |
+| 8 | 5mm |
+| 10 | 6mm |
+| 11 | 8mm |`,
         commonMistakes: [
-          "Using metal needles as a beginner (yarn slips off easily)",
-          "Choosing the wrong needle length for your project",
+          "Using slippery metal needles before you feel comfortable controlling the stitches.",
+          "Choosing a needle length that is too short or too long for the project.",
         ],
-        practiceExercise: "Compare holding bamboo vs metal needles. Notice how bamboo grips the yarn while metal lets it slide. Choose what feels comfortable."
+        practiceExercise: "Compare two needle materials, such as bamboo and metal, and notice which one gives you the most control.",
       },
       {
         id: "holding-yarn",
         title: "How to Hold Yarn",
         description: "Learn the English and Continental methods of holding yarn for consistent tension.",
         duration: "15 min",
-        content: `## Yarn Holding Methods\n\n### English Style (Throwing)\nThe yarn is held in your **right hand** and "thrown" around the needle.\n\n**Steps:**\n1. Wrap the yarn around your right pinky finger\n2. Bring it over your ring finger\n3. Under your middle finger\n4. Over your index finger\n\n### Continental Style (Picking)\nThe yarn is held in your **left hand** and "picked" by the needle.\n\n**Steps:**\n1. Wrap yarn around your left pinky\n2. Bring it over your index finger\n3. Use the right needle to "pick" the yarn\n\n### Which is Better?\nNeither! It's personal preference. English is more common in the US/UK, Continental in Europe. Try both and see what feels natural.`,
+        content: `## How to Hold Yarn
+
+The goal is not to hold the yarn in one perfect way. The goal is to keep the yarn moving smoothly so your stitches stay even and your hands stay relaxed.
+
+### English Style
+In English style, the working yarn is controlled with your **right hand**.
+
+1. Let the yarn run over your right index finger.
+2. Guide the yarn with your other fingers so it does not slip away.
+3. Keep your grip light so the yarn can move when you wrap it around the needle.
+
+### Continental Style
+In Continental style, the working yarn is controlled with your **left hand**.
+
+1. Let the yarn rest over your left index finger.
+2. Use your other fingers to add gentle tension.
+3. Move the needle to pick the yarn instead of wrapping the yarn by hand.
+
+### What to Watch For
+- Your shoulders and hands should stay relaxed.
+- The yarn should glide, not yank or drag.
+- If the stitches feel tight, loosen your grip slightly.
+- If the stitches look uneven, slow down and watch how the yarn moves across your fingers.`,
         commonMistakes: [
-          "Holding the yarn too tightly, creating stiff fabric",
-          "Holding too loosely, creating uneven stitches",
-          "Gripping the needles like pencils instead of relaxing your hands"
+          "Wrapping the yarn so tightly that the stitches become stiff.",
+          "Holding the yarn so loosely that every stitch ends up a different size.",
+          "Gripping the needles too hard instead of letting your fingers guide them.",
         ],
-        practiceExercise: "Practice wrapping the yarn around your fingers in both English and Continental style. Spend 5 minutes with each method, noticing which feels more natural."
+        practiceExercise: "Spend 5 minutes holding the yarn in English style and 5 minutes in Continental style, then choose the version that feels easier to control.",
       },
       {
         id: "casting-on",
         title: "Casting On",
         description: "The first step: getting stitches onto your needle using the long-tail cast on.",
         duration: "15 min",
-        content: `## The Long-Tail Cast On\n\nThis is the most versatile cast-on method. It creates a neat, elastic edge.\n\n### Step-by-Step\n\n1. **Measure the tail:** Pull out about 1 inch of yarn for every stitch you need, plus 6 extra inches\n2. **Make a slip knot:** Create a loop, pull the working yarn through, and tighten on the needle\n3. **Position your hand:** Hold both yarn tails — the tail over your thumb, the working yarn over your index finger\n4. **Insert the needle:** Go under the front strand on your thumb\n5. **Grab the yarn:** Catch the strand on your index finger\n6. **Pull through:** Bring it through the thumb loop\n7. **Tighten:** Drop the thumb loop and pull gently\n8. **Repeat** for each stitch\n\n### Pro Tip\n> Don't pull your stitches too tight! You'll need to slide your needle back into them on the next row.`,
+        content: `## The Long-Tail Cast On
+
+The long-tail cast on makes a neat, stretchy edge and is a great beginner method.
+
+### Step-by-Step
+
+1. **Measure the tail:** Pull out roughly 1 inch of yarn for each stitch you need, plus a few extra inches.
+2. **Make a slip knot:** Form a loop, pull the yarn through, and place the knot on the needle.
+3. **Set up your hand:** Hold the tail over your thumb and the working yarn over your index finger so the yarn forms a slingshot shape.
+4. **Insert the needle:** Bring the needle under the strand on your thumb.
+5. **Catch the yarn:** Move the needle over and around the strand on your index finger.
+6. **Pull the loop back:** Bring that strand back through the thumb loop.
+7. **Tighten gently:** Release the thumb loop and snug the new stitch without making it tight.
+8. **Repeat:** Keep making stitches until you reach the number you need.
+
+### Helpful Tip
+Your cast-on stitches should slide along the needle easily. If they do not move, you are pulling too tightly.`,
         commonMistakes: [
-          "Not leaving enough tail yarn",
-          "Pulling the cast-on stitches too tight",
-          "Twisting the slip knot when placing on needle"
+          "Leaving too short a yarn tail before starting.",
+          "Pulling the cast-on stitches so tightly that the next row is hard to knit.",
+          "Twisting the slip knot or the cast-on edge as you work.",
         ],
-        practiceExercise: "Cast on 20 stitches using the long-tail method. Practice until you can create an even row of stitches that slide easily on the needle."
+        videoUrl: "https://www.youtube.com/watch?v=1vm6oaYzHyA&t=367s",
+        practiceExercise: "Cast on 20 stitches several times until you can make a neat row of stitches that all slide smoothly on the needle.",
       },
       {
         id: "knit-stitch",
         title: "The Knit Stitch",
         description: "Learn the fundamental knit stitch — the building block of all knitting.",
         duration: "20 min",
-        content: `## The Knit Stitch\n\nThe knit stitch is one of two fundamental stitches. Master this, and you're halfway to knitting anything!\n\n### Steps\n\n1. **Hold your work:** Left needle has the stitches, right needle is empty\n2. **Insert:** Push right needle through the first stitch from left to right, going behind the left needle\n3. **Wrap:** Bring the working yarn counterclockwise around the right needle tip\n4. **Pull through:** Slide the right needle back through the stitch, bringing the new loop with it\n5. **Slide off:** Drop the old stitch off the left needle\n\n### The Garter Stitch Pattern\nWhen you knit every row, you create **garter stitch** — a bumpy, reversible fabric. This is the simplest pattern!`,
+        content: `## The Knit Stitch
+
+The knit stitch is one of the two basic stitches in knitting. Once you can make this stitch comfortably, you can create garter stitch and begin many beginner projects.
+
+### Step-by-Step
+
+1. **Start with the yarn in back:** Hold the needle with the stitches in your left hand and the empty needle in your right hand.
+2. **Insert the right needle:** Go into the front of the first stitch from left to right.
+3. **Wrap the yarn:** Bring the working yarn around the right needle counterclockwise.
+4. **Pull through:** Use the right needle to draw a new loop through the old stitch.
+5. **Slide off the old stitch:** Let the original stitch fall off the left needle.
+6. **Repeat across the row:** Knit each stitch the same way until the row is complete.
+
+### What It Makes
+If you knit every row, you create **garter stitch**, a stretchy fabric with ridges on both sides.`,
         commonMistakes: [
-          "Inserting the needle from right to left (that's purling!)",
-          "Wrapping the yarn clockwise instead of counterclockwise",
-          "Accidentally adding extra stitches at the edges",
-          "Knitting too tightly to slide the needle through"
+          "Inserting the needle from the wrong direction and accidentally making a purl-style motion.",
+          "Wrapping the yarn the wrong way around the needle.",
+          "Accidentally adding extra stitches at the edges by lifting the yarn over the needle.",
+          "Pulling the yarn so tightly that it becomes hard to insert the needle into the next row.",
         ],
-        practiceExercise: "Cast on 20 stitches and knit 20 rows of garter stitch. Focus on keeping even tension. Your swatch should be roughly square."
+        videoUrl: "https://www.youtube.com/watch?v=Egp4NRhlMDg",
+        practiceExercise: "Cast on 20 stitches and knit every row until you have a small square swatch, focusing on keeping the stitches the same size.",
       },
       {
         id: "purl-stitch",
         title: "The Purl Stitch",
         description: "Learn the purl stitch — the reverse of knit — to unlock countless stitch patterns.",
         duration: "20 min",
-        content: `## The Purl Stitch\n\nPurling is the reverse of knitting. Together, knit and purl create every stitch pattern imaginable.\n\n### Steps\n\n1. **Hold your work:** Yarn should be in front of the work\n2. **Insert:** Push right needle through the first stitch from right to left, in front of the left needle\n3. **Wrap:** Bring yarn counterclockwise around the right needle\n4. **Pull through:** Slide the needle back, bringing the new loop\n5. **Slide off:** Drop the old stitch\n\n### Stockinette Stitch\nAlternating one row of knit and one row of purl creates **stockinette stitch** — the smooth, classic "V" pattern you see in most store-bought knitwear.`,
+        content: `## The Purl Stitch
+
+The purl stitch is the reverse of the knit stitch. When you combine knit and purl stitches, you can create stockinette, ribbing, seed stitch, and many other textures.
+
+### Step-by-Step
+
+1. **Bring the yarn to the front:** The working yarn should sit in front of the needles.
+2. **Insert the right needle:** Go into the first stitch from right to left, with the right needle in front of the left needle.
+3. **Wrap the yarn:** Bring the yarn counterclockwise around the tip of the right needle.
+4. **Pull through:** Draw the new loop through the stitch toward the back.
+5. **Slide off the old stitch:** Let the original stitch drop from the left needle.
+6. **Repeat across the row:** Purl each stitch in the same way until the row is complete.
+
+### What It Makes
+If you knit one row and purl the next, you create **stockinette stitch**, the smooth fabric seen in many sweaters and hats.`,
         commonMistakes: [
-          "Forgetting to move yarn to the front before purling",
-          "Inserting the needle from the wrong direction",
-          "Creating accidental yarn-overs by moving yarn over the needle"
+          "Forgetting to move the yarn to the front before starting the purl stitch.",
+          "Inserting the needle from the wrong direction.",
+          "Accidentally creating extra yarn-overs while moving the yarn between front and back.",
         ],
-        practiceExercise: "Cast on 20 stitches. Row 1: Knit all. Row 2: Purl all. Repeat for 20 rows to create a stockinette swatch."
+        videoUrl: "https://www.youtube.com/watch?v=7ePhLqw6HDM",
+        practiceExercise: "Cast on 20 stitches and alternate one knit row with one purl row until you can clearly see the smooth stockinette side and the bumpy reverse side.",
       },
       {
         id: "binding-off",
         title: "Binding Off",
         description: "Learn how to finish your knitting by securely binding off stitches.",
         duration: "12 min",
-        content: `## Binding Off (Casting Off)\n\nBinding off secures your stitches so your work doesn't unravel.\n\n### Standard Bind Off\n\n1. **Knit 2 stitches** onto the right needle\n2. **Lift over:** Using the left needle, lift the first stitch over the second and off the needle\n3. **Knit 1 more** stitch\n4. **Lift over** again\n5. **Repeat** until one stitch remains\n6. **Cut the yarn** leaving a 6-inch tail\n7. **Pull through** the last stitch and tighten\n\n### Tips for a Good Bind Off\n- Keep your bind-off loose — it should stretch as much as your cast-on edge\n- If your bind-off is too tight, try using a needle one size larger`,
+        content: `## Binding Off
+
+Binding off secures the final row so your knitting will not unravel.
+
+### Standard Bind Off
+
+1. **Knit the first 2 stitches** onto the right needle.
+2. **Lift the first stitch over the second:** Use the tip of the left needle to pull the older stitch up and over the newer stitch.
+3. **Knit 1 more stitch** so you again have 2 stitches on the right needle.
+4. **Repeat the lift-over motion** to bind off another stitch.
+5. **Continue across the row** until only 1 stitch remains.
+6. **Cut the yarn,** leaving a tail of about 6 inches.
+7. **Pull the tail through the last loop** and tighten gently.
+
+### Helpful Tip
+The bound-off edge should stretch. If it pulls inward, try binding off more loosely or using a slightly larger needle.`,
         commonMistakes: [
-          "Binding off too tightly, creating a puckered edge",
-          "Forgetting to cut the yarn before pulling through the last stitch",
-          "Not weaving in the tail securely"
+          "Binding off so tightly that the edge puckers or curls.",
+          "Forgetting to cut the yarn before pulling it through the last loop.",
+          "Leaving the tail unsecured instead of weaving it in.",
         ],
-        practiceExercise: "Complete your garter stitch or stockinette swatch by binding off all stitches. Practice until the edge is even and flexible."
+        videoUrl: "https://www.youtube.com/watch?v=VSwjIUiQZlM",
+        practiceExercise: "Bind off a practice swatch and compare the final edge to the cast-on edge, aiming for both sides to look neat and flexible.",
       },
     ],
   },
@@ -132,72 +255,203 @@ export const courses: Course[] = [
         title: "What is Crochet?",
         description: "Discover the world of crochet, how it differs from knitting, and what you can create.",
         duration: "10 min",
-        content: `## Welcome to Crochet!\n\nCrochet uses a single hook to create fabric from loops of yarn. Unlike knitting, you work with one active loop at a time.\n\n### Crochet vs Knitting\n- **Crochet** uses one hook, knitting uses two needles\n- Crochet is great for **3D shapes** (amigurumi, flowers)\n- Crochet uses about **30% more yarn** than knitting\n- Crochet fabric tends to be thicker and sturdier\n\n### What You'll Need\n1. A crochet hook (5mm / H-8 for beginners)\n2. Worsted weight yarn\n3. Scissors\n4. Yarn needle`,
-        commonMistakes: ["Choosing a hook that's too small", "Starting with dark-colored yarn"],
-        practiceExercise: "Gather your supplies: a 5mm crochet hook and a skein of light-colored worsted weight yarn."
+        content: `## Welcome to Crochet
+
+Crochet uses one hook to pull yarn through loops and build fabric one stitch at a time. Unlike knitting, crochet usually keeps only one active loop on the hook.
+
+### Crochet vs. Knitting
+- **Crochet** uses one hook, while knitting usually uses two needles.
+- Crochet is excellent for **3D shapes** like toys, flowers, and baskets.
+- Crochet fabric is often thicker and a little firmer than knitted fabric.
+- Crochet can be easier to pause and restart because there is usually only one live loop to manage.
+
+### What You Need to Begin
+1. A crochet hook, such as 5mm / H-8.
+2. Smooth, light-colored worsted-weight yarn.
+3. Scissors.
+4. A yarn needle.`,
+        commonMistakes: ["Choosing a hook that is too small for beginner practice.", "Starting with dark yarn that makes the stitches hard to see."],
+        practiceExercise: "Gather a beginner hook and yarn, then practice holding them together before you try your first stitches.",
       },
       {
         id: "crochet-hooks",
         title: "Types of Crochet Hooks",
         description: "Learn about aluminum, steel, ergonomic, and Tunisian hooks.",
         duration: "10 min",
-        content: `## Crochet Hook Types\n\n### Aluminum Hooks\nLightweight and smooth. The most common type. Great for acrylic and cotton yarn.\n\n### Steel Hooks\nVery thin hooks for thread crochet and lace work. Numbered inversely (smaller number = larger hook).\n\n### Ergonomic Hooks\nThick, cushioned handles for comfort during long sessions. Excellent for anyone with hand pain.\n\n### Tunisian Hooks\nExtra-long hooks (sometimes with a cable) for Tunisian crochet, which creates a knit-like fabric.\n\n### Hook Sizes\n| Letter | Metric | Best For |\n|--------|--------|----------|\n| B/1 | 2.25mm | Thread |\n| G/6 | 4mm | DK yarn |\n| H/8 | 5mm | Worsted |\n| J/10 | 6mm | Bulky |`,
-        commonMistakes: ["Using the wrong size hook for your yarn weight"],
-        practiceExercise: "Hold your hook in both the pencil grip and the knife grip. Practice for 2 minutes each to find your preference."
+        content: `## Crochet Hook Types
+
+### Aluminum Hooks
+Aluminum hooks are lightweight, smooth, and widely available. They are a common beginner choice.
+
+### Steel Hooks
+Steel hooks are very small and are used mostly for thread crochet and lace.
+
+### Ergonomic Hooks
+Ergonomic hooks have thicker, softer handles to make long crochet sessions more comfortable.
+
+### Tunisian Hooks
+Tunisian hooks are longer than standard hooks and can hold many loops at once for Tunisian crochet.
+
+### Common Sizes
+| Letter | Metric | Best For |
+|--------|--------|----------|
+| B/1 | 2.25mm | Thread |
+| G/6 | 4mm | DK yarn |
+| H/8 | 5mm | Worsted |
+| J/10 | 6mm | Bulky |`,
+        commonMistakes: ["Using a hook size that does not match the yarn weight or the pattern recommendation."],
+        practiceExercise: "Hold two different crochet hooks if you can, and notice which handle shape feels more comfortable in your hand.",
       },
       {
         id: "crochet-holding-yarn",
         title: "How to Hold Yarn for Crochet",
         description: "Master yarn tension and hook grip for smooth, even crochet.",
         duration: "12 min",
-        content: `## Holding Your Hook & Yarn\n\n### Hook Grip\n**Pencil Grip:** Hold the hook like a pencil, between thumb and index finger.\n\n**Knife Grip:** Hold the hook like a dinner knife, with your hand over the top.\n\n### Yarn Tension\n1. Drape yarn over your non-dominant index finger\n2. Wrap once around your pinky for tension\n3. The yarn should flow smoothly — not too tight, not too loose\n\n### The Working Position\n- Hook in dominant hand\n- Yarn and work in non-dominant hand\n- Pinch the work near where you're stitching`,
-        commonMistakes: ["Gripping the hook too tightly", "Inconsistent yarn tension"],
-        practiceExercise: "Practice holding the hook and yarn for 5 minutes without crocheting. Get comfortable with the position."
+        content: `## Holding Your Hook and Yarn
+
+Good crochet tension comes from a comfortable grip, not from squeezing the hook tightly.
+
+### Hook Grip
+**Pencil Grip:** Hold the hook like a pencil between your thumb and index finger.
+
+**Knife Grip:** Hold the hook like a dinner knife with your hand over the top.
+
+### Yarn Control
+1. Drape the yarn over the index finger of your non-dominant hand.
+2. Use your other fingers to guide the yarn and create light tension.
+3. Pinch the work close to the stitch you are making so the hook has support.
+
+### What to Watch For
+- The yarn should move smoothly when you pull it.
+- Your hook hand should stay relaxed.
+- If your stitches are too tight, loosen your grip slightly.
+- If your loops keep getting large and uneven, slow down and adjust how the yarn rests over your finger.`,
+        commonMistakes: ["Gripping the hook too tightly and tiring your hand.", "Letting the yarn move with no control so the loops become uneven."],
+        practiceExercise: "Practice holding the hook and yarn for several minutes without crocheting until the position feels natural and steady.",
       },
       {
         id: "chain-stitch",
         title: "Chain Stitch",
         description: "The foundation of nearly every crochet project.",
         duration: "15 min",
-        content: `## The Chain Stitch (ch)\n\nThe chain is the foundation row for most crochet projects.\n\n### Steps\n1. **Slip knot:** Make a loop, pull yarn through, tighten on hook\n2. **Yarn over (YO):** Wrap yarn over the hook from back to front\n3. **Pull through:** Draw the yarn through the loop on the hook\n4. **Repeat:** Each pull-through creates one chain\n\n### Counting Chains\n- Each V-shape on the front is one chain\n- Don't count the loop on the hook\n- Don't count the slip knot`,
-        commonMistakes: ["Making chains too tight", "Losing count of chains", "Twisting the chain"],
-        practiceExercise: "Make a chain of 30 stitches. Practice until your chains are even in size."
+        content: `## The Chain Stitch (ch)
+
+The chain stitch forms the starting foundation for many crochet projects.
+
+### Step-by-Step
+1. **Make a slip knot:** Place it on the hook with one loop on the hook.
+2. **Yarn over:** Wrap the yarn over the hook from back to front.
+3. **Pull through:** Draw the yarn through the loop already on the hook.
+4. **Repeat:** Each new pull-through creates one chain.
+5. **Check your tension:** The chain should stay loose enough to bend without twisting.
+
+### How to Count Chains
+- Count each V-shaped chain.
+- Do not count the loop currently on the hook.
+- Do not count the slip knot as a chain.`,
+        commonMistakes: ["Making the chains so tight that the next row is hard to work.", "Losing count of the chains.", "Twisting the chain before starting the next row."],
+        videoUrl: "https://www.youtube.com/watch?v=o-Il8OcNAZA",
+        practiceExercise: "Make several chains of 20 to 30 stitches and aim for each chain to match the others in size.",
       },
       {
         id: "slip-stitch",
         title: "Slip Stitch",
         description: "A versatile stitch for joining, edging, and moving yarn.",
         duration: "10 min",
-        content: `## Slip Stitch (sl st)\n\nThe slip stitch is the shortest crochet stitch. It's used to join rounds, create edges, and move yarn without adding height.\n\n### Steps\n1. Insert hook into the stitch\n2. Yarn over\n3. Pull through both the stitch AND the loop on your hook in one motion\n\n### Uses\n- Joining a chain into a ring\n- Joining rounds when crocheting in the round\n- Creating surface decoration\n- Invisible seaming`,
-        commonMistakes: ["Pulling too tight when joining rounds"],
-        practiceExercise: "Chain 20, then slip stitch back along the chain to practice the motion."
+        content: `## Slip Stitch (sl st)
+
+The slip stitch is short and flat. It is used more for joining and moving the yarn than for building height.
+
+### Step-by-Step
+1. Insert the hook into the next stitch or space.
+2. Yarn over once.
+3. Pull the yarn through the stitch and the loop already on the hook in one motion.
+4. Keep the motion gentle so the stitch stays flexible.
+
+### Common Uses
+- Joining a chain into a ring.
+- Closing a round.
+- Moving the yarn to a new position.
+- Making a neat edging or surface detail.`,
+        commonMistakes: ["Pulling the stitch too tight when joining rounds or edging."],
+        videoUrl: "https://www.youtube.com/watch?v=8ir3v31G0sg",
+        practiceExercise: "Chain 20 and work a slip stitch into each chain so you can practice pulling through in one smooth motion.",
       },
       {
         id: "single-crochet",
         title: "Single Crochet",
         description: "The most fundamental crochet stitch — short, tight, and versatile.",
         duration: "20 min",
-        content: `## Single Crochet (sc)\n\nSingle crochet creates a short, dense fabric. It's the most commonly used stitch.\n\n### Steps\n1. Insert hook into the stitch\n2. Yarn over and pull up a loop (2 loops on hook)\n3. Yarn over and pull through both loops\n\n### Starting a Row\n- Chain 1 (turning chain)\n- Turn your work\n- Single crochet into the first stitch\n\n### Tips\n- Count your stitches at the end of each row\n- The turning chain does NOT count as a stitch in single crochet`,
-        commonMistakes: ["Skipping the first stitch", "Not counting stitches", "Accidentally increasing at row edges"],
-        practiceExercise: "Chain 21, then single crochet across (20 sc). Work 20 rows to make a swatch. Count your stitches each row!"
+        content: `## Single Crochet (sc)
+
+Single crochet makes a short, sturdy fabric and is one of the most useful stitches in crochet.
+
+### Step-by-Step
+1. Insert the hook into the next stitch.
+2. Yarn over and pull up a loop so you have 2 loops on the hook.
+3. Yarn over again.
+4. Pull through both loops on the hook.
+5. Repeat in each stitch across the row.
+
+### Starting a New Row
+- Chain 1.
+- Turn your work.
+- Insert the hook into the first stitch of the new row.
+
+### Helpful Tip
+The turning chain usually does **not** count as a stitch in single crochet.`,
+        commonMistakes: ["Skipping the first stitch of the row.", "Forgetting to count stitches and accidentally increasing or decreasing.", "Pulling the loops too tight to work into easily."],
+        videoUrl: "https://www.youtube.com/watch?v=7FcRdxg0aeY",
+        practiceExercise: "Chain 21, then work 20 single crochets across each row until you can keep the stitch count the same from top to bottom.",
       },
       {
         id: "double-crochet",
         title: "Double Crochet",
         description: "A taller stitch that works up quickly and creates a softer fabric.",
         duration: "20 min",
-        content: `## Double Crochet (dc)\n\nDouble crochet is twice the height of single crochet, making projects grow faster.\n\n### Steps\n1. **Yarn over** before inserting the hook\n2. Insert hook into the stitch\n3. Yarn over and pull up a loop (3 loops on hook)\n4. Yarn over and pull through 2 loops (2 loops remain)\n5. Yarn over and pull through last 2 loops\n\n### Starting a Row\n- Chain 3 (turning chain — counts as first dc)\n- Turn your work\n- Skip the first stitch, dc into the second`,
-        commonMistakes: ["Forgetting the initial yarn over", "Not counting the turning chain as a stitch"],
-        practiceExercise: "Chain 23, dc across (20 dc + ch-3 turning chain). Work 15 rows."
+        content: `## Double Crochet (dc)
+
+Double crochet is taller than single crochet, so projects grow faster and feel more open.
+
+### Step-by-Step
+1. **Yarn over** before inserting the hook.
+2. Insert the hook into the next stitch.
+3. Yarn over and pull up a loop so you have 3 loops on the hook.
+4. Yarn over and pull through the first 2 loops.
+5. Yarn over again and pull through the last 2 loops.
+6. Repeat in each stitch across the row.
+
+### Starting a New Row
+- Chain 3.
+- Turn your work.
+- In many patterns, that chain 3 counts as the first double crochet.`,
+        commonMistakes: ["Forgetting the first yarn-over before inserting the hook.", "Missing the top of the turning chain when counting stitches.", "Skipping or adding stitches at the ends of rows."],
+        videoUrl: "https://www.youtube.com/watch?v=a1whu6Gub1M",
+        practiceExercise: "Chain 23 and work double crochet rows, checking that each row has the same number of stitches before you continue.",
       },
       {
         id: "half-double-crochet",
         title: "Half Double Crochet",
         description: "A stitch between single and double crochet in height.",
         duration: "15 min",
-        content: `## Half Double Crochet (hdc)\n\nHalf double crochet is taller than single but shorter than double. It creates a slightly textured fabric.\n\n### Steps\n1. Yarn over\n2. Insert hook into the stitch\n3. Yarn over and pull up a loop (3 loops on hook)\n4. Yarn over and pull through ALL 3 loops at once\n\n### When to Use It\n- Hat bands\n- Blanket borders\n- Projects where you want moderate density\n- Transitioning between sc and dc sections`,
-        commonMistakes: ["Pulling through only 2 loops instead of 3", "Inconsistent tension"],
-        practiceExercise: "Create a swatch: Chain 22, hdc across for 15 rows. Compare the texture to your sc and dc swatches."
+        content: `## Half Double Crochet (hdc)
+
+Half double crochet is a medium-height stitch that creates a soft, slightly textured fabric.
+
+### Step-by-Step
+1. Yarn over once.
+2. Insert the hook into the next stitch.
+3. Yarn over and pull up a loop so you have 3 loops on the hook.
+4. Yarn over again and pull through all 3 loops at the same time.
+5. Repeat in each stitch across the row.
+
+### When It Is Useful
+- Hat bands.
+- Blanket borders.
+- Projects that need more height than single crochet but more density than double crochet.`,
+        commonMistakes: ["Pulling through only 2 loops instead of all 3.", "Letting the loop heights vary so the row becomes uneven."],
+        videoUrl: "https://www.youtube.com/watch?v=f9C1C21MNiM",
+        practiceExercise: "Work a small swatch in half double crochet and compare it to your single crochet and double crochet swatches so you can feel the difference in height and texture.",
       },
     ],
   },

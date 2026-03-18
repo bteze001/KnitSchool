@@ -1,12 +1,31 @@
 import { useState } from "react";
 import { Link, useParams } from "react-router-dom";
 import { motion } from "framer-motion";
-import { Search, Scissors } from "lucide-react";
+import { Search, Scissors, Video } from "lucide-react";
 import { stitches } from "@/data/stitches";
+
+function getYouTubeEmbedUrl(url: string) {
+  try {
+    const parsed = new URL(url);
+    const videoId = parsed.hostname.includes("youtu.be")
+      ? parsed.pathname.slice(1)
+      : parsed.searchParams.get("v");
+
+    return videoId ? `https://www.youtube.com/embed/${videoId}` : null;
+  } catch {
+    return null;
+  }
+}
 
 function StitchDetail({ stitchId }: { stitchId: string }) {
   const stitch = stitches.find((s) => s.id === stitchId);
   if (!stitch) return <div className="p-12 text-center text-muted-foreground">Stitch not found.</div>;
+
+  const videos = stitch.videoUrl
+    ? Array.isArray(stitch.videoUrl)
+      ? stitch.videoUrl
+      : [stitch.videoUrl]
+    : [];
 
   return (
     <div className="max-w-3xl mx-auto px-6 py-12">
@@ -19,6 +38,52 @@ function StitchDetail({ stitchId }: { stitchId: string }) {
         </div>
         <h1 className="text-4xl font-serif mb-4">{stitch.name}</h1>
         <p className="text-muted-foreground mb-8">{stitch.description}</p>
+
+        {videos.length > 0 && (
+          <div className="bg-card rounded-card p-6 shadow-soft border border-border/50 mb-6">
+            <h2 className="font-serif text-xl mb-4 flex items-center gap-2">
+              <Video size={18} className="text-primary" />
+              Video Tutorial
+            </h2>
+            <div className="space-y-4">
+              {videos.map((videoUrl, index) => {
+                const embedUrl = getYouTubeEmbedUrl(videoUrl);
+
+                if (!embedUrl) {
+                  return (
+                    <a
+                      key={videoUrl}
+                      href={videoUrl}
+                      target="_blank"
+                      rel="noreferrer"
+                      className="inline-flex items-center gap-2 text-sm font-medium text-primary hover:underline"
+                    >
+                      Watch tutorial {videos.length > 1 ? index + 1 : ""}
+                    </a>
+                  );
+                }
+
+                return (
+                  <div key={videoUrl} className="space-y-2">
+                    {videos.length > 1 && (
+                      <p className="text-sm font-medium text-foreground/80">Tutorial {index + 1}</p>
+                    )}
+                    <div className="aspect-video overflow-hidden rounded-2xl border border-border/50 bg-muted">
+                      <iframe
+                        src={embedUrl}
+                        title={`${stitch.name} tutorial ${index + 1}`}
+                        className="h-full w-full"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        referrerPolicy="strict-origin-when-cross-origin"
+                        allowFullScreen
+                      />
+                    </div>
+                  </div>
+                );
+              })}
+            </div>
+          </div>
+        )}
 
         <div className="bg-card rounded-card p-6 shadow-soft border border-border/50 mb-6">
           <h2 className="font-serif text-xl mb-4">Instructions</h2>
@@ -109,7 +174,13 @@ function StitchList() {
                     </div>
                   </div>
                 </div>
-                <p className="text-sm text-muted-foreground line-clamp-2">{stitch.description}</p>
+                <p className="text-sm text-muted-foreground line-clamp-2 mb-3">{stitch.description}</p>
+                {stitch.videoUrl && (
+                  <div className="inline-flex items-center gap-1.5 rounded-full bg-accent px-2.5 py-1 text-xs font-medium text-primary">
+                    <Video size={12} />
+                    Video included
+                  </div>
+                )}
               </div>
             </Link>
           </motion.div>

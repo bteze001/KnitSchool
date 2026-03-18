@@ -26,12 +26,12 @@ export default function Footer() {
               <Link to="/tools" className="block text-sm text-muted-foreground hover:text-foreground transition-colors">Crafting Tools</Link>
             </div>
           </div>
-          {/* <div>
+          <div>
             <h5 className="font-medium text-sm mb-3">Connect</h5>
             <div className="space-y-2">
               <Link to="/community" className="block text-sm text-muted-foreground hover:text-foreground transition-colors">Community</Link>
             </div>
-          </div> */}
+          </div>
         </div>
         <div className="border-t border-border mt-8 pt-8 text-center text-sm text-muted-foreground">
           © 2026 KnitSchool. Made with yarn and love.

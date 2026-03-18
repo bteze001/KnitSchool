@@ -58,6 +58,27 @@ function PatternDetail({ patternId }: { patternId: string }) {
             ))}
           </ol>
         </div>
+
+        {pattern.videoUrl && (
+          <div className="bg-card rounded-card p-6 shadow-soft border border-border/50 mt-6">
+            <h2 className="font-serif text-xl mb-4 flex items-center gap-2">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor" className="text-red-500 shrink-0">
+                <path d="M23.5 6.2a3 3 0 0 0-2.1-2.1C19.5 3.5 12 3.5 12 3.5s-7.5 0-9.4.6A3 3 0 0 0 .5 6.2C0 8.1 0 12 0 12s0 3.9.6 5.8a3 3 0 0 0 2.1 2.1c1.9.6 9.3.6 9.3.6s7.5 0 9.4-.6a3 3 0 0 0 2.1-2.1C24 15.9 24 12 24 12s0-3.9-.5-5.8z"/>
+                <polygon fill="white" points="9.75,15.02 15.5,12 9.75,8.98"/>
+              </svg>
+              Video Tutorial
+            </h2>
+            <div className="aspect-video rounded-card overflow-hidden bg-muted">
+              <iframe
+                src={pattern.videoUrl.replace("watch?v=", "embed/")}
+                title={`${pattern.title} tutorial`}
+                className="w-full h-full"
+                allowFullScreen
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              />
+            </div>
+          </div>
+        )}
       </motion.div>
     </div>
   );
@@ -120,6 +141,12 @@ function PatternList() {
                 <div className="flex items-center gap-2 mb-2">
                   <span className={`text-xs font-semibold uppercase tracking-wider ${diffColors[p.difficulty]}`}>{p.difficulty}</span>
                   <span className="text-xs text-muted-foreground">• {p.type}</span>
+                  {p.videoUrl && (
+                    <span className="ml-auto flex items-center gap-1 text-xs font-medium text-red-500">
+                      <svg width="12" height="12" viewBox="0 0 24 24" fill="currentColor"><path d="M23.5 6.2a3 3 0 0 0-2.1-2.1C19.5 3.5 12 3.5 12 3.5s-7.5 0-9.4.6A3 3 0 0 0 .5 6.2C0 8.1 0 12 0 12s0 3.9.6 5.8a3 3 0 0 0 2.1 2.1c1.9.6 9.3.6 9.3.6s7.5 0 9.4-.6a3 3 0 0 0 2.1-2.1C24 15.9 24 12 24 12s0-3.9-.5-5.8z"/><polygon fill="white" points="9.75,15.02 15.5,12 9.75,8.98"/></svg>
+                      Video
+                    </span>
+                  )}
                 </div>
                 <h3 className="font-serif text-lg mb-1">{p.title}</h3>
                 <p className="text-sm text-muted-foreground line-clamp-2 mb-3">{p.description}</p>
